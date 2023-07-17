@@ -1,0 +1,209 @@
+#wrap {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #main {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section1 {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section1 .container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section1 .container .slide-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap {
+  pointer-events: none;
+  width: 1500%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  margin-left: -100%;
+  padding-top: 5vh;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  height: 100vh;
+  background: url() no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide1 {
+  background-image: url(../img/1205_Banner_w.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide2 {
+  background-image: url(../img/1205_Banner_w0.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide6 {
+  background-image: url(../img/210125_WEB_main_banner5.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide7 {
+  background-image: url(../img/210224_WEB_main_banner.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide8 {
+  background-image: url(../img/8_SIMMONS_COLLECTION_pC.png);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide9 {
+  background-image: url(../img/190724_WEB_main_banner1.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide10 {
+  background-image: url(../img/8_220107_WEB_main_banner_furniture.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide11 {
+  background-image: url(../img/11_KENOSHA_HOME0.png);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide12 {
+  background-image: url(../img/190219_WEB_main_banner13.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide13 {
+  background-image: url(../img/11_220107_WEB_main_banner_fragrance.jpg);
+}
+#wrap #main #section1 .container .chev-box .chevron-right-btn {
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+}
+#wrap #main #section1 .container .chev-box .chevron-right-btn i {
+  display: block;
+  font-size: 2vw;
+  color: blanchedalmond;
+}
+#wrap #main #section1 .container .chev-box .chevron-left-btn {
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+}
+#wrap #main #section1 .container .chev-box .chevron-left-btn i {
+  display: block;
+  font-size: 2vw;
+  color: blanchedalmond;
+}
+#wrap #main #section1 .container .btn-box {
+  position: absolute;
+  z-index: 3;
+  bottom: 5%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+}
+#wrap #main #section1 .container .btn-box span .page-btn {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#wrap #main #section1 .container .btn-box span .page-btn.on {
+  background-color: white;
+}
+#wrap #main #section1 .container .btn-box span .stop-btn {
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+#wrap #main #section1 .container .btn-box span .play-btn {
+  font-size: 10px;
+  display: none;
+  color: #fff;
+}
+#wrap #main #section1 .container #scrollBtnUp {
+  position: absolute;
+  z-index: 4;
+  bottom: 5%;
+  left: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#wrap #main #section1 .container #scrollBtnUp i {
+  padding-top: 20%;
+  font-size: 2vw;
+}
+#wrap #main #section2 {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section2 .container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section2 .container #scrollBtnDown {
+  position: absolute;
+  z-index: 4;
+  top: 2%;
+  left: 50.7%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#wrap #main #section2 .container #scrollBtnDown i {
+  padding-bottom: 20%;
+  font-size: 2vw;
+}
+#wrap #main #section2 .container .banner {
+  width: 100%;
+  height: 100vh;
+  padding-top: 8%;
+  display: flex;
+  justify-content: center;
+  background: url(../img/1205_Banner_w_dim.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #main #section2 .container .banner li {
+  width: 25%;
+}
+#wrap #main #section2 .container .banner li:first-child {
+  margin-left: 10%;
+}
+#wrap #main #section2 .container .banner li:last-child {
+  margin-right: 10%;
+}
+#wrap #main #section2 .container .banner li a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap #main #section2 .container .banner li a img {
+  width: 71%;
+}
+#wrap #footer {
+  width: 100%;
+}
